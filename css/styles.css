@@ -15,16 +15,22 @@
   text-decoration: none; /*чтобы скинуть подчеркивание*/
 }
 .container{
-
+width: 1158px; 
+margin: 0 auto ;
+padding-left: 15px;
+padding-right: 15px;
+}
+img{
+  display: block;
 }
 /*----------------------------------------HEADER(PORTFOLIO+INDEX)-----------------------------------------------*/
-.div-header{
-  
-}
 .header-studio {
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-studio-navigation {
+  display: flex;
+  align-items: center;
 }
 .header-logo {
   font-weight: 800;
@@ -35,6 +41,7 @@
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .header-logo-two {
   font-weight: 800;
@@ -48,11 +55,17 @@
 .header-item {
 }
 .header-list {
+  display: flex; 
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-adress {
   font-style: normal;
 }
 .header-contacts-list {
+  display: flex;
+  gap: 40px;
 }
 .header-link {
   font-weight: 500;
@@ -80,10 +93,34 @@
   color: #404bbf;
 }
 /*-----------------------------------------MAIN(PORTFOLIO+INDEX)------------------------------------------------*/
+.div-header-hero-section{
+  display: flex; 
+}
+.div-main-second-section {
+  display: flex;
+}
+.div-main-specific-section{
+  display: flex;
+  padding-bottom: 120px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .second-section-title {
 }
 .functions-list {
+  display: flex; 
+  gap: 24px;
 }
 .functions-item {
 }
@@ -108,10 +145,14 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .specific-list {
+  display: flex; 
+  gap: 24px; 
 }
 .specific-item {
+  width: calc((100% - 48px) / 3); 
 }
 .teamlist {
   font-size: 36px;
@@ -155,6 +196,7 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 .img-portf-list-link {
 }
@@ -225,6 +267,12 @@
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .header-button:hover {
   background-color: #404bbf;
@@ -257,9 +305,13 @@
 /*------------------------------------------------SECTION-INDEX-------------------------------------------------*/
 .hero-section {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .second-section {
   background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .specific-section {
   background-color: #ffffff;
