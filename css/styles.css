@@ -96,8 +96,11 @@ img{
   color: #404bbf;
 }
 /*-----------------------------------------MAIN(PORTFOLIO+INDEX)------------------------------------------------*/
-.div-header-hero-section{
-  display: flex; 
+.div-header{
+  display: flex;
+}
+.div-main-hero-section{
+   
 }
 .div-main-second-section {
   display: flex;
@@ -120,6 +123,7 @@ img{
   overflow: hidden;
 }
 .second-section-title {
+  margin-bottom: 8px;
 }
 .functions-list {
   display: flex; 
@@ -318,6 +322,7 @@ img{
 }
 .specific-section {
   background-color: #ffffff;
+  padding-bottom: 120px;
 }
 .main-section {
   background-color: #ffffff;
