@@ -5,7 +5,7 @@
 }
 .body {
   background: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
 }
 .list {
@@ -14,14 +14,13 @@
 .link {
   text-decoration: none; /*чтобы скинуть подчеркивание*/
 }
-.container{
-width: 1158px; 
-margin: 0 auto ;
-padding-left: 15px;
-padding-right: 15px;
-
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-img{
+.img {
   display: block;
 }
 /*----------------------------------------HEADER(PORTFOLIO+INDEX)-----------------------------------------------*/
@@ -40,7 +39,7 @@ img{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   margin-right: 76px;
 }
@@ -50,15 +49,15 @@ img{
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #2e2f42;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
 .header-item {
-  padding-top: 24px; 
-   padding-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-list {
-  display: flex; 
+  display: flex;
   gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -98,28 +97,28 @@ img{
   color: #404bbf;
 }
 /*-----------------------------------------MAIN(PORTFOLIO+INDEX)------------------------------------------------*/
-.div-header{
+.div-header {
   display: flex;
 }
-.div-main-hero-section{
-  display: flex; 
+.div-main-hero-section {
+  display: flex;
 }
 .div-main-second-section {
   display: flex;
 }
-.div-main-specific-section{
+.div-main-specific-section {
   display: flex;
   padding-bottom: 120px;
 }
-.div-main-team-section{
-display: flex;
-padding-top: 120px;
-padding-top: 32px;
- padding-bottom: 32px; 
- padding-left: 16px;
-  padding-right: 16px
+.div-main-team-section {
+  display: flex;
+  padding-top: 120px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
-.div-info{
+.div-info {
   padding: 32px 16px;
 }
 .visually-hidden {
@@ -139,7 +138,7 @@ padding-top: 32px;
   margin-bottom: 8px;
 }
 .functions-list {
-  display: flex; 
+  display: flex;
   gap: 24px;
 }
 .functions-item {
@@ -169,11 +168,11 @@ padding-top: 32px;
   margin-bottom: 72px;
 }
 .specific-list {
-  display: flex; 
-  gap: 24px; 
+  display: flex;
+  gap: 24px;
 }
 .specific-item {
-  width: calc((100% - 48px) / 3); 
+  width: calc((100% - 48px) / 3);
 }
 .teamlist {
   font-size: 36px;
@@ -193,7 +192,7 @@ padding-top: 32px;
   background-color: #ffffff;
   padding-top: 72px;
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px; 
+  border-radius: 0px 0px 4px 4px;
 }
 .teamlist-specific {
   font-weight: 500;
@@ -215,7 +214,7 @@ padding-top: 32px;
 .hero-section-portfolio {
   background: linear-gradient(0deg, #e7e9fc, #e7e9fc),
     linear-gradient(0deg, #ffffff, #ffffff);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .hero-title {
   font-weight: 700;
@@ -253,8 +252,7 @@ padding-top: 32px;
 .hero-section-portfolio-btn-list {
 }
 /*-----------------------------------------FOOTER(PORTFOLIO+INDEX)----------------------------------------------*/
-.div-footer{
-
+.div-footer {
 }
 .footer {
   background-color: #2e2f42;
@@ -268,7 +266,7 @@ padding-top: 32px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
@@ -281,7 +279,7 @@ padding-top: 32px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .footer-description {
   font-weight: 400;
@@ -292,9 +290,8 @@ padding-top: 32px;
   max-width: 264px;
 }
 /*------------------------------------------------BUTTON-INDEX--------------------------------------------------*/
-
 .header-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -319,7 +316,7 @@ padding-top: 32px;
 
 /*---------------------------------------------BUTTON-PORTFOLIO-------------------------------------------------*/
 .hero-section-portfolio-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
