@@ -3,6 +3,21 @@
   --background-color: var(#ffffff);
   --text-color: var(#434455);
 }
+ul{
+  padding-left: 0;
+}
+h1{
+  margin: 0;
+}
+h2{
+  margin: 0;
+}
+h3{
+  margin: 0;
+}
+p{
+  margin: 0;
+}
 .body {
   background: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -19,11 +34,12 @@
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  display: flex;
+  
 }
 .img {
   display: block;
 }
+
 /*----------------------------------------HEADER(PORTFOLIO+INDEX)-----------------------------------------------*/
 .header-studio {
   background-color: #ffffff;
@@ -60,17 +76,20 @@
 .header-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  }
 .header-adress {
   font-style: normal;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .header-contacts-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-left: 0;
 }
 .header-link {
   font-weight: 500;
@@ -172,16 +191,16 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  background-color: #ffffff;
   margin-bottom: 72px;
 }
 .teamlist-story {
   display: flex;
   gap: 24px;
+  padding: 0;
 }
 .teamlist-item {
   background-color: #ffffff;
-  padding-top: 72px;
+  
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -215,6 +234,8 @@
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .img-portf-list-link {
 }
@@ -308,6 +329,7 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
 }
 .header-button:hover {
   background-color: #404bbf;
