@@ -121,6 +121,14 @@
 .div-info {
   padding: 32px 16px;
 }
+.div-main{
+
+}
+.div-cards{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -230,10 +238,20 @@
 .hero-section-portfolio-title {
 }
 .hero-section-portfolio-list {
+  display: flex; 
+  justify-content: center; 
+  gap: 24px;
+  margin-bottom: 72px;
+
 }
 .img-list-portfolio {
+  display: flex ;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .img-items-list-portfolio {
+  width: calc((100% - 48px) / 3); 
 }
 .title-img-list {
   font-weight: 500;
@@ -241,6 +259,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-list-description {
   font-weight: 400;
@@ -320,20 +339,27 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
+padding-top: 12px;
+ padding-bottom: 12px;
+ padding-left: 24px;
+  padding-right: 24px;)
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
   cursor: pointer;
+  border: 1px solid #e7e9fc ;
+  border-radius: 4px;
 }
 .hero-section-portfolio-btn:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .hero-section-portfolio-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 /*------------------------------------------------SECTION-INDEX-------------------------------------------------*/
 .hero-section {
@@ -360,4 +386,6 @@
 /*-----------------------------------------------SECTION-PORTFOLIO----------------------------------------------*/
 .web-concept {
   background-color: #ffffff;
+  padding-top: 96px;
+   padding-bottom: 120px;
 }
