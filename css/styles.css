@@ -19,6 +19,7 @@
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
 }
 .img {
   display: block;
@@ -97,32 +98,14 @@
   color: #404bbf;
 }
 /*-----------------------------------------MAIN(PORTFOLIO+INDEX)------------------------------------------------*/
+.ul{
+  padding: 0;
+}
 .div-header {
   display: flex;
 }
-.div-main-hero-section {
-  display: flex;
-}
-.div-main-second-section {
-  display: flex;
-}
-.div-main-specific-section {
-  display: flex;
-  padding-bottom: 120px;
-}
-.div-main-team-section {
-  display: flex;
-  padding-top: 120px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
-}
 .div-info {
   padding: 32px 16px;
-}
-.div-main{
-
 }
 .div-cards{
   padding: 32px 16px;
