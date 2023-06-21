@@ -100,7 +100,7 @@ img{
   display: flex;
 }
 .div-main-hero-section{
-   
+  display: flex; 
 }
 .div-main-second-section {
   display: flex;
@@ -108,6 +108,14 @@ img{
 .div-main-specific-section{
   display: flex;
   padding-bottom: 120px;
+}
+.div-main-team-section{
+display: flex;
+padding-top: 120px;
+padding-top: 32px;
+ padding-bottom: 32px; 
+ padding-left: 16px;
+  padding-right: 16px
 }
 .visually-hidden {
   position: absolute;
@@ -169,11 +177,17 @@ img{
   text-transform: capitalize;
   color: #2e2f42;
   background-color: #ffffff;
+  margin-bottom: 72px;
 }
 .teamlist-story {
+  display: flex;
+  gap: 24px;
 }
 .teamlist-item {
   background-color: #ffffff;
+  padding-top: 72px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px; 
 }
 .teamlist-specific {
   font-weight: 500;
@@ -182,6 +196,7 @@ img{
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  
 }
 .teamlist-description {
   font-weight: 400;
@@ -329,6 +344,7 @@ img{
 }
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 /*-----------------------------------------------SECTION-PORTFOLIO----------------------------------------------*/
 .web-concept {
