@@ -100,6 +100,8 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-link:hover {
   color: #404bbf;
@@ -129,10 +131,10 @@ ol {
 .div-info {
   padding: 32px 16px;
 }
-.div-cards{
+.cards{
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: none; 
+
 }
 .visually-hidden {
   position: absolute;
@@ -148,7 +150,7 @@ ol {
   overflow: hidden;
 }
 .second-section-title {
-  margin-bottom: 8px;
+  
 }
 .functions-list {
   display: flex;
@@ -163,6 +165,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .functions-description {
   font-size: 16px;
